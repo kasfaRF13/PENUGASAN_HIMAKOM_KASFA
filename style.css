@@ -1,0 +1,65 @@
+/* 1. Pengaturan Global */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1e293b;
+    line-height: 1.6;
+}
+
+section {
+    padding: 100px 0;
+}
+
+/* 2. BERANDA: Teknologi & Ambisi */
+/* Perpaduan Navy ke Deep Blue untuk kesan IT Profesional */
+#beranda {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* 3. PROFIL: Tetap Putih Bersih agar Fokus ke Foto & Teks */
+#profil {
+    background: #ffffff;
+}
+
+/* 4. SKILL: Gradasi Biru Lembut (Menyambung dari Beranda) */
+#skill {
+    background: linear-gradient(180deg, #e2e8f0 0%, #cbd5e1 100%);
+}
+
+/* 5. PENUGASAN: Warna Biru Langit Sangat Muda (Elegan) */
+#penugasan {
+    background: #f1f5f9;
+    border-top: 1px solid #e2e8f0;
+}
+
+/* 6. RIWAYAT & PROYEK: Warna Senada dengan Penugasan */
+#portofolio {
+    background: #f8fafc;
+}
+
+/* 7. KONTAK: Elegant & Profesional */
+#kontak {
+    background: #0f172a;
+    color: white;
+}
+
+/* Menghias Kartu agar "Slay" */
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
